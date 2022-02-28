@@ -81,6 +81,7 @@ interface GigabitEthernet0/0
  duplex auto
  speed auto
  media-type rj45
+ no shut
 !
 interface GigabitEthernet0/1
  description to
@@ -89,6 +90,7 @@ interface GigabitEthernet0/1
  duplex auto
  speed auto
  media-type rj45
+ no shut
 !
 interface GigabitEthernet0/2
  description to
@@ -97,6 +99,7 @@ interface GigabitEthernet0/2
  duplex auto
  speed auto
  media-type rj45
+ no shut
 !
 interface GigabitEthernet0/3
  description Uplink to VLAN 2
@@ -104,6 +107,7 @@ interface GigabitEthernet0/3
  duplex auto
  speed auto
  media-type rj45
+ no shut
 !
 ip forward-protocol nd
 !
