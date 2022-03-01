@@ -395,6 +395,42 @@ nodes:
         slot: 7
         label: port7
         type: physical
+  - id: n5
+    label: LAN 192.168.2.0/24
+    node_definition: external_connector
+    x: -50
+    y: -150
+    configuration: virbr0
+    tags: []
+    interfaces:
+      - id: i0
+        slot: 0
+        label: port
+        type: physical
+  - id: n6
+    label: LAN 192.168.4.0/24
+    node_definition: external_connector
+    x: -50
+    y: 50
+    configuration: virbr0
+    tags: []
+    interfaces:
+      - id: i0
+        slot: 0
+        label: port
+        type: physical
+  - id: n7
+    label: LAN 192.168.1.0/24
+    node_definition: external_connector
+    x: -850
+    y: -50
+    configuration: virbr0
+    tags: []
+    interfaces:
+      - id: i0
+        slot: 0
+        label: port
+        type: physical
 links:
   - id: l0
     i1: i1
@@ -421,3 +457,18 @@ links:
     n1: n4
     i2: i4
     n2: n3
+  - id: l7
+    i1: i0
+    n1: n7
+    i2: i2
+    n2: n4
+  - id: l1
+    i1: i4
+    n1: n1
+    i2: i0
+    n2: n5
+  - id: l6
+    i1: i4
+    n1: n2
+    i2: i0
+    n2: n6
