@@ -4,4 +4,4 @@ This lab covers enabling OSPF, creating various areas, adding MD5 authentication
 
 In this directory you will find a lab diagram w/ tasks, a base configs folder for you to start your test environment from, and a final configs folder with the configs showing the implemented configurations necessary to complete the tasks.
 
-A video walkthrough of this lab can be found [here] (https://youtu.be/1ZhzUbzIPRk)
+A video walkthrough of this lab can be found [here](https://youtu.be/1ZhzUbzIPRk).
