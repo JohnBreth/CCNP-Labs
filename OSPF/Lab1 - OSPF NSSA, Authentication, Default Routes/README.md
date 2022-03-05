@@ -6,4 +6,4 @@
 
 🚶A video walkthrough of this lab can be found [here](https://youtu.be/1ZhzUbzIPRk).
 
-https://github.com/JohnBreth/CCNP-Labs/blob/43bbd805f00942ec1f440b738df3c1642bfc64b2/OSPF/Lab1%20-%20OSPF%20NSSA,%20Authentication,%20Default%20Routes/Base%20Configs/Update%20Cisco%20OSPF%20Lab%201.drawio.png
+![Lab 1 diagram](https://github.com/JohnBreth/CCNP-Labs/blob/43bbd805f00942ec1f440b738df3c1642bfc64b2/OSPF/Lab1%20-%20OSPF%20NSSA,%20Authentication,%20Default%20Routes/Base%20Configs/Update%20Cisco%20OSPF%20Lab%201.drawio.png)
