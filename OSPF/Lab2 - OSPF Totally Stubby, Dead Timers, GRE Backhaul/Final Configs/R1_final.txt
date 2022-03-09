@@ -76,12 +76,9 @@ interface Loopback0
  shutdown
 !
 interface Tunnel0
- no ip address
- ip ospf authentication-key JBC
-!
-interface Tunnel1
  ip address 5.5.5.1 255.255.255.252
  ip ospf 1 area 0
+ ip ospf authentication-key JBC
  tunnel source GigabitEthernet0/0
  tunnel destination 10.0.0.2
 !
