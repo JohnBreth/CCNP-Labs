@@ -1,6 +1,6 @@
 # CCNP Lab2 - OSPF Totally Stubby, Dead Timers, GRE Backhaul :computer: :desktop_computer: :floppy_disk:
 
-🔥This lab covers enabling OSPF, creating various areas, Totally Stubby Areas, modifying failover response with dead timers, using GRE tunnels to connect areas to backbone, weighted routes for failover purposes, and various OSPF troublehshooting and verification commands.
+🔥This lab covers enabling OSPF, creating various areas, Totally Stubby Areas, modifying failover response with dead timers, using GRE tunnels to connect areas to backbone, weighted routes for failover purposes, and various OSPF troubleshooting and verification commands.
 
 📔In this directory you will find a lab diagram w/ tasks, a base configs folder for you to start your test environment from, and a final configs folder with the configs showing the implemented configurations necessary to complete the tasks.
 
