@@ -85,7 +85,7 @@ interface Tunnel0
 interface GigabitEthernet0/0
  description Uplink to R1 gi0/0
  ip address 10.0.0.2 255.255.255.252
- ip ospf 2 area 1
+ ip ospf 2 area 2
  duplex auto
  speed auto
  media-type rj45
@@ -93,7 +93,7 @@ interface GigabitEthernet0/0
 interface GigabitEthernet0/1
  description Uplink to R4 gi0/2
  ip address 10.0.0.9 255.255.255.252
- ip ospf 2 area 2
+ ip ospf 2 area 1
  duplex auto
  speed auto
  media-type rj45
@@ -109,7 +109,7 @@ interface GigabitEthernet0/2
 interface GigabitEthernet0/3
  description Uplink to VLAN 2
  ip address 192.168.2.1 255.255.255.0
- ip ospf 2 area 1
+ ip ospf 2 area 2
  duplex auto
  speed auto
  media-type rj45
@@ -117,7 +117,7 @@ interface GigabitEthernet0/3
 router ospf 2
  router-id 2.2.2.2
  area 0 authentication
- area 1 stub
+ area 2 stub
 !
 ip forward-protocol nd
 !

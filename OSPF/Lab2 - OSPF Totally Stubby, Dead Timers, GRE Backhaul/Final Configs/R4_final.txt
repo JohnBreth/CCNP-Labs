@@ -91,9 +91,9 @@ interface GigabitEthernet0/1
  media-type rj45
 !
 interface GigabitEthernet0/2
- description Uplink to R3 gi0/0
+ description Uplink to R2 gi0/0
  ip address 10.0.0.10 255.255.255.252
- ip ospf 3 area 2
+ ip ospf 4 area 1
  duplex auto
  speed auto
  media-type rj45
@@ -101,15 +101,13 @@ interface GigabitEthernet0/2
 interface GigabitEthernet0/3
  description Uplink to VLAN 4
  ip address 192.168.4.1 255.255.255.0
- ip ospf 3 area 2
+ ip ospf 4 area 1
  duplex auto
  speed auto
  media-type rj45
 !
 router ospf 4
  router-id 4.4.4.4
-!
-router ospf 3
 !
 ip forward-protocol nd
 !

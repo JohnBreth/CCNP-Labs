@@ -85,7 +85,7 @@ interface Tunnel0
 interface GigabitEthernet0/0
  description Uplink to R2 gi0/0
  ip address 10.0.0.1 255.255.255.252
- ip ospf 1 area 1
+ ip ospf 1 area 2
  duplex auto
  speed auto
  media-type rj45
@@ -118,7 +118,7 @@ interface GigabitEthernet0/3
 router ospf 1
  router-id 1.1.1.1
  area 0 authentication
- area 1 stub no-summary
+ area 2 stub no-summary
  redistribute connected subnets
  redistribute static subnets
 !
