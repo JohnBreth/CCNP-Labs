@@ -4,6 +4,6 @@
 
 📔In this directory you will find a lab diagram w/ tasks, a base configs folder for you to start your test environment from, and a final configs folder with the configs showing the implemented configurations necessary to complete the tasks.
 
-🚶A video walkthrough of this lab can be found [here](youtube.com/c/cyberinsight).
+🚶A video walkthrough of this lab can be found [here](https://youtu.be/0a6afrT3Y9s).
 
 ![Lab 2 diagram](https://github.com/JohnBreth/CCNP-Labs/blob/master/OSPF/Lab2%20-%20OSPF%20Totally%20Stubby,%20Dead%20Timers,%20GRE%20Backhaul/Base%20Configs/Cisco%20OSPF%20Lab%202.drawio.png?raw=true)
