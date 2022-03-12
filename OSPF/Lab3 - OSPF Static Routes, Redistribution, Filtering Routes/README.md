@@ -6,4 +6,4 @@
 
 🚶A video walkthrough of this lab will be found [here](https://youtube.com/c/cyberinsight).
 
-![Lab 3 diagram](https://github.com/JohnBreth/CCNP-Labs/blob/master/OSPF/Lab2%20-%20OSPF%20Totally%20Stubby,%20Dead%20Timers,%20GRE%20Backhaul/Base%20Configs/Cisco%20OSPF%20Lab%202.drawio.png?raw=true)
+![Lab 3 diagram](https://github.com/JohnBreth/CCNP-Labs/blob/master/OSPF/Lab3%20-%20OSPF%20Static%20Routes%2C%20Redistribution%2C%20Filtering%20Routes/Base%20Configs/Cisco%20OSPF%20Lab%203.drawio.png)
