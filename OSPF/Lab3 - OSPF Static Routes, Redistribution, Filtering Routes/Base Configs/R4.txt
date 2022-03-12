@@ -2,7 +2,7 @@ service timestamps debug datetime msec
 service timestamps log datetime msec
 no service password-encryption
 !
-hostname R1
+hostname R4
 !
 boot-start-marker
 boot-end-marker
@@ -51,7 +51,7 @@ archive
   hidekeys
  path flash0:archive
  write-memory
-username cisco privilege 15 secret 9 $9$xDnvQlCFIW1oSN$5hK8HYHWTvwh/J99RYbnNs6ZaUoccq5JEqoBfoE/rIU
+username cisco privilege 15 secret 9 $9$tb3CNm5KLpiDsd$G87sWURXl.D/oBb3r2mRawIOrfsELPcOETH9fpAbUZA
 !
 redundancy
 !
@@ -76,32 +76,32 @@ interface Loopback0
  shutdown
 !
 interface GigabitEthernet0/0
- description Uplink to R2 gi0/0
- ip address 10.0.0.1 255.255.255.252
+ description Uplink to R3 gi0/0
+ ip address 10.0.0.14 255.255.255.252
  duplex auto
  speed auto
  media-type rj45
  no shut
 !
 interface GigabitEthernet0/1
- description Uplink to R4 gi0/1
- ip address 10.0.0.5 255.255.255.252
+ description Uplink to R1 gi0/1
+ ip address 10.0.0.6 255.255.255.252
  duplex auto
  speed auto
  media-type rj45
  no shut
 !
 interface GigabitEthernet0/2
- description to
- no ip address
- shutdown
+ description Uplink to R2 gi0/1
+ ip address 10.0.0.10 255.255.255.252
  duplex auto
  speed auto
  media-type rj45
+ no shut
 !
 interface GigabitEthernet0/3
- description Uplink to VLAN 1
- ip address 192.168.1.1 255.255.255.0
+ description Uplink to VLAN 4
+ ip address 192.168.4.1 255.255.255.0
  duplex auto
  speed auto
  media-type rj45
