@@ -1,6 +1,6 @@
 # CCNP Lab3 - OSPF NSSA, Prefix Filters, Static/Connected Redistribution, FA Suppresion :computer: :desktop_computer: :floppy_disk:
 
-🔥This lab covers enabling OSPF, creating various areas, Not So Stubby Areas, suppressing forwarding addresses from external routes, using prefix filters to limit route propegation, redistributing connected/static routes, and various OSPF troubleshooting and verification commands.
+🔥This lab covers enabling OSPF, creating various areas, Not So Stubby Areas, suppressing forwarding addresses from external routes, using prefix filters to limit route propagation, redistributing connected/static routes, and various OSPF troubleshooting and verification commands.
 
 📔In this directory you will find a lab diagram w/ tasks, a base configs folder for you to start your test environment from, and a final configs folder with the configs showing the implemented configurations necessary to complete the tasks.
 
