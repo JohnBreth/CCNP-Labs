@@ -116,6 +116,7 @@ router bgp 65000
 !
 ip forward-protocol nd
 !
+ip bgp-community new-format
 !
 no ip http server
 no ip http secure-server
