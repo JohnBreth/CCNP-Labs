@@ -18,8 +18,6 @@ lab:
 
     5.Plan for future link between R1 and R3, however R1/R2 should also prefer going through AS 65502 to reach other LAN subnets. Any other subnets added to other AS's will not be affected. You can't use IP ACLs or prefix lists.
 
-    6.Configure AS 65502 to advertise a single route instead of 192.168.2.0/24 and 192.168.4.0/24.Use the "neighbor *address* unsuppress-map *route-map* command on R2/R4 to allow these prefixes to be advertise within AS 65502 to each other to still have LAN to LAN connectivity.
-    Verify connectivity between LANs.
   timestamp: 1646074892.8601847
   title: BGP Lab
   version: 0.0.4
