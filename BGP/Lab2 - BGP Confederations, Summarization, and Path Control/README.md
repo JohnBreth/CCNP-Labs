@@ -5,4 +5,4 @@
 
 🚶A video walkthrough of this lab can be found [here](youtube.com/c/cyberinsight).
 
-![Lab 2 diagram](https://raw.githubusercontent.com/JohnBreth/CCNP-Labs/master/BGP/Lab1%20%20BGP%20RR%2C%20Auth%2C%20Route%20Maps/Base%20Configs/Cisco%20BGP%20Lab%201.drawio.png)
+![Lab 2 diagram](https://raw.githubusercontent.com/JohnBreth/CCNP-Labs/master/BGP/Lab2%20-%20BGP%20Confederations%2C%20Summarization%2C%20and%20Path%20Control/Base%20Configs/Cisco%20BGP%20Lab%202.drawio.png)
