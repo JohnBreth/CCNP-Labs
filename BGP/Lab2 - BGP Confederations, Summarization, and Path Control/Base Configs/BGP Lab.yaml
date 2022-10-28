@@ -16,7 +16,7 @@ lab:
 
     4. Advertise LAN /24's subnets (192.168.x.x/24) on R1-R4 vis BGP. Make sure each subnet can ping the other LAN subnets.
 
-    5.Plan for future link between R1 and R3, however R1/R2 should also prefer going through AS 65502 to reach other LAN subnets. Any other subnets added to other AS's will not be affected. You can't use IP ACLs or prefix lists.
+    5. Plan for future link between R1 and R3, however R1/R2 should also prefer going through AS 65502 to reach other LAN subnets. Any other subnets added to other AS's will not be affected. You can't use IP ACLs or prefix lists.
 
   timestamp: 1646074892.8601847
   title: BGP Lab
